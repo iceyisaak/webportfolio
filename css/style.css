@@ -62,7 +62,7 @@ a:focus {
 a:active {
   /* selected link */
   color: var(--primary-color-light);
-  color: #f05e5eff;
+  color: #f05e5e;
 }
 
 button {
@@ -72,7 +72,7 @@ button {
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
   background-color: var(--primary-color);
-  background-color: #e52828ff;
+  background-color: #e52828;
   color: var(--white);
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -115,7 +115,7 @@ td {
   display: inline-block;
   font-family: inherit;
   background-color: var(--primary-color);
-  background-color: #e52828ff;
+  background-color: #e52828;
   color: var(--white);
   text-decoration: none;
   padding: var(--button-padding);
@@ -140,7 +140,7 @@ button:focus,
 
 .button__secondary {
   background-color: var(--secondary-color);
-  background-color: #54d0e0ff;
+  background-color: #54d0e0;
   color: var(--dark-grey);
 }
 
