@@ -40,7 +40,7 @@ a {
 }
 
 /* a:visited {
- /* visited link */
+  /* visited link */
 /* color: #221a09; */
 /* } */
 
@@ -87,12 +87,12 @@ td {
 }
 
 /* .animation-img {
- position: absolute;
- width: auto;
- margin: 0 auto;
- left: 0;
- right: 0;
- bottom: -55px;
+  position: absolute;
+  width: auto;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -55px;
 } */
 
 .animation-image {
@@ -197,9 +197,9 @@ button:focus,
 
 .logo {
   min-width: 10%;
-  max-width: 200px;
+  max-width: 255px;
   min-height: auto;
-  max-height: 70px;
+  max-height: 35px;
 }
 
 .navigation-list {
