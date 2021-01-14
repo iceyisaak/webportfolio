@@ -5,6 +5,22 @@
 * Browsers: last 2 version
 */
 
+:root {
+  --primary-color: #e52828;
+  --primary-color-light: #f05e5e;
+  --secondary-color: #54d0e0;
+  --dark-grey: #2b2b2b;
+  --dark-grey-2: #0e0808;
+  --light-grey: #d3d3d3;
+  --white: #fff;
+  --border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  --dark-yellow: #edc655;
+  --light-yellow: #fcffad;
+  --orange: #f76414;
+  --button-padding: 10px;
+  --button-border-radius: 3px;
+}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -36,7 +52,7 @@ p {
 }
 
 a {
-  color: #0e0808;
+  color: var(--dark-grey-2);
 }
 
 /* a:visited {
@@ -53,7 +69,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #f05e5e;
+  color: var(--primary-color-light);
 }
 
 button {
@@ -62,14 +78,14 @@ button {
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: #e52828;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
-  padding: 10px;
-  border-radius: 3px;
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
   /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: var(--border-bottom);
 }
 
 table {
@@ -104,12 +120,12 @@ td {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #e52828;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--white);
   text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  border-bottom: var(--border-bottom);
   -webkit-transition: 0.2s opacity;
   transition: 0.2s opacity;
   text-align: center;
@@ -131,8 +147,8 @@ button:focus,
 }
 
 .button__secondary {
-  background-color: #54d0e0;
-  color: #2b2b2b;
+  background-color: var(--secondary-color);
+  color: var(--dark-grey);
 }
 
 .cloud-back {
@@ -176,7 +192,7 @@ button:focus,
     margin: 0;
   }
   .grid__item {
-    background: #d3d3d3;
+    background: var(--light-grey);
     width: auto;
     min-height: auto;
     margin: 0;
@@ -199,7 +215,7 @@ button:focus,
   min-width: 10%;
   max-width: 255px;
   min-height: auto;
-  max-height: 35px;
+  max-height: 36px;
 }
 
 .navigation-list {
@@ -213,7 +229,7 @@ button:focus,
 
 .navigation-list__item--active {
   text-decoration: none;
-  color: #e52828;
+  color: var(--primary-color);
 }
 
 .page-header {
@@ -312,25 +328,25 @@ button:focus,
 
 @-webkit-keyframes color-change {
   0% {
-    fill: #edc655;
+    fill: var(--dark-yellow);
   }
   50% {
-    fill: #fcffad;
+    fill: var(--light-yellow);
   }
   100% {
-    fill: #f76414;
+    fill: var(--orange);
   }
 }
 
 @keyframes color-change {
   0% {
-    fill: #edc655;
+    fill: var(--dark-yellow);
   }
   50% {
-    fill: #fcffad;
+    fill: var(--light-yellow);
   }
   100% {
-    fill: #f76414;
+    fill: var(--orange);
   }
 }
 
