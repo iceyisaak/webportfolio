@@ -74,6 +74,7 @@ button {
   background-color: var(--primary-color);
   background-color: #e52828;
   color: var(--white);
+  color: #ffffff;
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
   padding: var(--button-padding);
@@ -117,6 +118,7 @@ td {
   background-color: var(--primary-color);
   background-color: #e52828;
   color: var(--white);
+  color: #ffffff;
   text-decoration: none;
   padding: var(--button-padding);
   border-radius: var(--button-border-radius);
@@ -142,6 +144,7 @@ button:focus,
   background-color: var(--secondary-color);
   background-color: #54d0e0;
   color: var(--dark-grey);
+  color: #2b2b2b;
 }
 
 .cloud-back {
@@ -211,6 +214,7 @@ button:focus,
 .navigation-list__item--active {
   text-decoration: none;
   color: var(--primary-color);
+  color: #e52828;
 }
 
 .page-header {
