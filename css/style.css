@@ -190,9 +190,9 @@ button:focus,
 
 .logo {
   min-width: 10%;
-  max-width: 200px;
+  max-width: 255px;
   min-height: auto;
-  max-height: 70px;
+  max-height: 35px;
 }
 
 .navigation-list {
