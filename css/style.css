@@ -121,6 +121,7 @@ td {
   border-bottom: var(--border-bottom);
   transition: 0.2s opacity;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .button--cv {
@@ -137,8 +138,18 @@ button:focus,
 }
 
 .button__secondary {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
   background-color: var(--secondary-color);
   color: var(--dark-grey);
+  text-decoration: none;
+  padding: var(--button-padding);
+  border-radius: var(--button-border-radius);
+  border-bottom: var(--border-bottom);
+  transition: 0.2s opacity;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .cloud-back {
