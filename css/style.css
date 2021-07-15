@@ -172,8 +172,8 @@ button:focus,
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--secondary-color);
-  color: var(--dark-grey);
+  background-color: var(--dark-grey);
+  color: var(--white);
   text-decoration: none;
   padding: var(--button-padding);
   border-radius: var(--button-border-radius);
