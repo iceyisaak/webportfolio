@@ -1,3 +1,12 @@
+/* 
+To Updated Styling
+1. Update style.css
+2. Add postCSS at https://madlittlemods.github.io/postcss-css-variables/playground/
+3. Add AutoPrefixer at https://autoprefixer.github.io/
+4. Paste into style.production.css
+*/
+
+
 :root {
   --primary-color: #e52828;
   --primary-color-light: #f05e5e;
