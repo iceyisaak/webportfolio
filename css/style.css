@@ -12,6 +12,13 @@
   --orange: #f76414;
   --button-padding: 10px;
   --button-border-radius: 3px;
+  --dark-yellow-2: #eec438;
+  --light-green: #8af334;
+  --light-red: #f83333;
+  --dark-blue: #3f42f1;
+  --light-blue: #1083ee;
+  --light-purple: #7010ee;
+
 }
 
 * {
@@ -109,6 +116,30 @@ td {
   margin: 0 auto;
 }
 
+.background--yellow{
+  background-color: var(--dark-yellow-2) ;
+}
+
+.background--green{
+  background-color: var(--light-green) ;
+}
+
+.background--red{
+  background-color: var(--light-red) ;
+}
+
+.background--blue{
+  background-color: var(--light-blue) ;
+}
+
+.background--blue-dark{
+  background-color: var(--dark-blue) ;
+}
+
+.background--purple{
+  background-color: var(--light-purple) ;
+}
+
 .button {
   border: none;
   display: inline-block;
@@ -184,7 +215,6 @@ button:focus,
     margin: 0;
   }
   .grid__item {
-    background: var(--light-grey);
     width: auto;
     min-height: auto;
     margin: 0;
